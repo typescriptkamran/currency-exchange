@@ -1,14 +1,22 @@
 {
-  "name": "currency-exchange",
+  "name": "moneyexchange",
   "version": "1.0.0",
   "type": "module",
-  "description": "",
-  "main": "index.js",
+  "description": "Simple currency exchange Application",
+  "main": "./dist/index.js",
+  "bin": {
+    "moneyexchange": "./dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/typescriptkamran/currency-exchange.git"
+  },
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Muhammad Kamran",
   "license": "ISC",
   "dependencies": {
     "@types/node": "^20.8.0",
