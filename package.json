@@ -1,6 +1,6 @@
 {
   "name": "pak-exchange",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Simple currency exchange Application",
   "main": "./dist/index.js",
@@ -11,7 +11,6 @@
     "type": "git",
     "url": "https://github.com/typescriptkamran/currency-exchange.git"
   },
-
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
