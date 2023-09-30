@@ -44,7 +44,7 @@ async function main() {
     const fromCurrencyAnswer = await inquirer.prompt({
         type: "list",
         name: "fromCurrency",
-        message: "Choose the source currency:",
+        message: "Choose the source currency - Convert from:",
         choices: currencies,
     });
     const { fromCurrency } = fromCurrencyAnswer;
@@ -53,7 +53,7 @@ async function main() {
     const toCurrencyAnswer = await inquirer.prompt({
         type: "list",
         name: "toCurrency",
-        message: "Choose the destination currency:",
+        message: "Choose the destination currency - Convert to:",
         choices: toCurrencyChoices,
     });
     const { toCurrency } = toCurrencyAnswer;
