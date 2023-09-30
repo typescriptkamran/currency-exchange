@@ -1,11 +1,11 @@
 {
-  "name": "moneyexchange",
+  "name": "pak-exchange",
   "version": "1.0.0",
   "type": "module",
   "description": "Simple currency exchange Application",
   "main": "./dist/index.js",
   "bin": {
-    "moneyexchange": "./dist/index.js"
+    "pak-exchange": "./dist/index.js"
   },
   "repository": {
     "type": "git",
